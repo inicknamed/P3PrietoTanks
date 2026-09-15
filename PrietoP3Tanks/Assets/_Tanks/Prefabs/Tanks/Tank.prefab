@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2566917548242965781}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2772237798940438532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireTransform
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -77,7 +77,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2659455238194450456}
   - component: {fileID: 3034397091309073162}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: AimSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 6781681954578938428}
   - component: {fileID: 1386287381149199083}
   - component: {fileID: 745031049658114534}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 9176648098907040710}
   - component: {fileID: 4980561010737656634}
   - component: {fileID: 6064209394394927996}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,11 +506,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tanks.Complete.TankHealth
   m_StartingHealth: 100
-  m_Slider: {fileID: 0}
-  m_FillImage: {fileID: 0}
+  m_Slider: {fileID: 1901449201148637454}
+  m_FillImage: {fileID: 6938899959179784194}
   m_FullHealthColor: {r: 0, g: 1, b: 0, a: 1}
   m_ZeroHealthColor: {r: 1, g: 0, b: 0, a: 1}
-  m_ExplosionPrefab: {fileID: 0}
+  m_ExplosionPrefab: {fileID: 151086, guid: 6bc6d0dd8b8428e4ca316513f2cf13c6, type: 3}
   m_HasShield: 0
 --- !u!1 &8015290790461403801
 GameObject:
@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 1082585374549452001}
   - component: {fileID: 2196294546958850733}
   - component: {fileID: 4235816741287900662}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,6 +599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DustTrail_Left
       objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: 38afd255d6ed746388b2f406bf3402a1, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 496482, guid: 38afd255d6ed746388b2f406bf3402a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.614
@@ -660,6 +664,10 @@ PrefabInstance:
     - target: {fileID: 148586, guid: 38afd255d6ed746388b2f406bf3402a1, type: 3}
       propertyPath: m_Name
       value: DustTrail_Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 148586, guid: 38afd255d6ed746388b2f406bf3402a1, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 496482, guid: 38afd255d6ed746388b2f406bf3402a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -723,6 +731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 2502711481265462758, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3088847576401942210, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -730,6 +742,10 @@ PrefabInstance:
     - target: {fileID: 3088847576401942210, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066147126482045633, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7471019981129515232, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
       propertyPath: m_Pivot.x
@@ -823,11 +839,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8313935966057949721, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8971489726698694703, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+--- !u!114 &1901449201148637454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 902463018230840462, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+  m_PrefabInstance: {fileID: 1649861916819541376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6938899959179784194 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8551931156765572482, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
+  m_PrefabInstance: {fileID: 1649861916819541376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8163647040445435232 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7471019981129515232, guid: 1d30ac653c80f4afeba76b72f7111a7f, type: 3}
@@ -881,9 +927,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6360734205217477867, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3830528551544128778, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -3315954688725367957, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -2060093758743322743, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1443357282216228794, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 342729936290184828, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
       propertyPath: m_Name
       value: Tank_Shark_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853639030163972552, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933489477958259965, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705651146652848569, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598419493678936200, guid: 9cb291b9205a86444b285015bd02d5d6, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
